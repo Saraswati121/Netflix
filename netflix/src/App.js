@@ -69,10 +69,10 @@ function App() {
       <section>
       <div className="feature">
           <div className="feature__details">
-            <h3 className="feature__title">Enjoy on your TV.</h3>
+            <h2 className="hero__title">Enjoy on your TV</h2>
             <h5 className="feature__sub__title">
-              Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
-              Blu-ray players and more.
+              Watch on smart TVs, PlayStation, Xbox, Chromecast,<br />
+               Apple TV,Blu-ray players and more.
             </h5>
           </div>
           <div className="feature__image__container">
@@ -89,6 +89,42 @@ function App() {
                 />
               </video>
             </div>
+          </div>
+      </div>
+      <div className="feature">
+          <div className="feature__image__container">
+          <img
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+            alt="feature_image"
+            className="feature__img"/>
+            <div className="feature__2__poster__container">
+              <div className="poster__container">
+                <img
+                  src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
+                  alt="poster"
+                  className="poster"
+                />
+              </div>
+              <div className="poster__details">
+                <h4>Stranger Things</h4>
+                <h6>Downloading...</h6>
+              </div>
+              <div className="download__gif__container">
+                <img
+                  src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif"
+                  alt="downloading gif"
+                  className="gif"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="sec__details">
+            <h2 className="hero__title">
+              Download your shows to watch offline
+            </h2>
+            <h5 className="feature__sub__title">
+              Save your favourites easily and always have something to watch.
+            </h5>
           </div>
         </div>
       </section>
