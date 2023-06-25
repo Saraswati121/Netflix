@@ -321,35 +321,20 @@ body {
 }
 .FAQ__accordian {
   width: 73%;
-  border: 2px solid palevioletred;
 }
-.FAQ__title {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 20px;
-  font-size: 18px;
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:last-of-type{
   background-color: #303030;
   border: 1px solid #303030;
   color: white;
+  padding: 15px;
 }
-
-.FAQ__visible {
-  background-color: #303030;
-  border-top: 1px solid black;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease-in-out;
-}
-
-.FAQ__visible > p {
-  margin: 1rem;
+.css-yw020d-MuiAccordionSummary-expandIconWrapper{
+  color: white !important;
 }
 .FAQ__list__container {
   border-top: 8px solid #222;
   padding: 2rem 0;
 }
-
 .FAQ__list {
   display: flex;
   flex-direction: column;
